@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Initialize FaceAnalysis with GPU support
 app = FaceAnalysis(name='buffalo_l', providers=['CUDAExecutionProvider'])
-app.prepare(ctx_id=0, det_size=(640, 640))  # Adjust detection size as needed
+app.prepare(ctx_id=0, det_size=(640, 640)) 
 
 # Load known faces
 known_faces_dir = "known_faces"
