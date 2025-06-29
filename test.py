@@ -71,7 +71,6 @@ for face in detected_faces:
     cv2.putText(frame, f"{name} ({best_score:.2f})", (x1, y1 - 10),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 0), 2)
 
-# Show the result
 cv2.imshow("Group Face Recognition", frame)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
