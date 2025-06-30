@@ -75,5 +75,5 @@ cv2.imshow("Group Face Recognition", frame)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-# Optionally, save the labeled image
+
 cv2.imwrite("labeled_output.jpg", frame)
