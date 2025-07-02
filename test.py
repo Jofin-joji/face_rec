@@ -36,7 +36,7 @@ for filename in os.listdir(known_faces_dir):
 # Similarity threshold
 threshold = 0.5
 
-# Load the group image
+
 input_path = "Screenshot 2025-06-20 194857.png"  # Replace with your input image path
 frame = cv2.imread(input_path)
 
